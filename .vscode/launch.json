@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Dojo.empty}",
+            "name": "Debug _projectName_",
+            "program": "${workspaceFolder:Dojo.empty}/.build/debug/_projectName_",
+            "preLaunchTask": "swift: Build Debug _projectName_"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Dojo.empty}",
+            "name": "Release _projectName_",
+            "program": "${workspaceFolder:Dojo.empty}/.build/release/_projectName_",
+            "preLaunchTask": "swift: Build Release _projectName_"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Springboard}",
+            "name": "Debug Springboard",
+            "program": "${workspaceFolder:Springboard}/.build/debug/Springboard",
+            "preLaunchTask": "swift: Build Debug Springboard"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Springboard}",
+            "name": "Release Springboard",
+            "program": "${workspaceFolder:Springboard}/.build/release/Springboard",
+            "preLaunchTask": "swift: Build Release Springboard"
+        }
+    ]
+}
